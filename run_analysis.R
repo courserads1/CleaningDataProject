@@ -33,14 +33,14 @@
 ##   merge to only include vriables that contained mean and std in the names.
 ##   Mean and mean had to be included to capture all mean variables
 ##
-## Melt was used to go from wide to long version of the data yy Activity, Subject, 
-##  measurement type, measurement
-## Summarise() used to create wide version of mean of all the metrics by Activity and Subject
-##  combination.
+## Melt was used to go from wide to long version of the data  
+##  Data was first group_by(ActivityDescription, Subject, VariableName) then 
+##  Summarise() used to create wide version of mean of all the metrics by Activity 
+##  and Subject combination.
 ## 
 ## tidy_long data set was created with description variable names and columns reordered then
-## txt version of tidy_long created.
-##
+##  txt version of tidy_long created using write.table().
+## 
 ##
 
 
